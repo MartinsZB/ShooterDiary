@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ShooterDiary</string>
+    <string name="diaryDate">Date</string>
+    <string name="itemName">Diary item name</string>
+    <string name="diary_note_text">Diary note</string>
+    <string name="mantisx_score">MantisX Score</string>
+    <string name="mantisx_firetype">Fire Type: </string>
+    <string name="mantisx_firetype_value">Fire Type value</string>
+    <string name="mantisx_item_hand">Main hand: </string>
+    <string name="mantisx_hand_item_value">Main hand value</string>
+    <string name="mantisx_item_firearm">Firearm: </string>
+    <string name="mantisx_firearm_value">Firearm name</string>
 </resources>
