@@ -10,4 +10,6 @@
     <string name="mantisx_hand_item_value">Main hand value</string>
     <string name="mantisx_item_firearm">Firearm: </string>
     <string name="mantisx_firearm_value">Firearm name</string>
+    <string name="mantisx_shoots">MantisX Shoots</string>
+    <string name="diary_note_mantisx">MantisX Session Notes</string>
 </resources>

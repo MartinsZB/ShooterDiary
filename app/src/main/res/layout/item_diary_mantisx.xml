@@ -22,6 +22,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/itemTargetMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/corner_margin"
+            app:layout_constraintEnd_toStartOf="@+id/itemScoreMantisX"
+            app:layout_constraintStart_toEndOf="@+id/itemShootsMantisX"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_target_svgrepo_com" />
+
         <TextView
             android:id="@+id/itemDateMantisX"
             android:layout_width="wrap_content"
@@ -49,14 +59,25 @@
             android:id="@+id/itemScoreMantisX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/item_text_margin"
+            android:padding="@dimen/corner_margin"
             android:text="@string/mantisx_score"
             android:textSize="@dimen/item_name_size"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/itemDeleteMantisX"
-            app:layout_constraintStart_toEndOf="@+id/itemDateMantisX"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="93.25" />
+
+        <TextView
+            android:id="@+id/itemShootsMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/corner_margin"
+            android:text="@string/mantisx_shoots"
+            android:textSize="@dimen/item_name_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/itemDateMantisX"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="10" />
 
         <TextView
             android:id="@+id/itemTypeMantisX"
@@ -119,10 +140,23 @@
             android:layout_marginStart="@dimen/item_text_margin"
             android:padding="@dimen/item_text_margin"
             android:text="@string/mantisx_firearm_value"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/itemTypeMantisX"
             app:layout_constraintTop_toBottomOf="@+id/itemTypeMantisX_val"
             tools:text="Walther Arms Inc P99 AS 9x19mm" />
 
+        <TextView
+            android:id="@+id/itemNoteMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:padding="@dimen/item_text_margin"
+            android:text="@string/diary_note_mantisx"
+            app:layout_constraintBottom_toTopOf="@+id/itemDrillMantisX"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemFirearmMantisX_val"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
