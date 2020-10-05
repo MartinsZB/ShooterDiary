@@ -11,10 +11,7 @@ import lv.zabarovski.martins.shooterdiary.RandomData.items as randomDataItems
 
 class Diary_Fragment : Fragment()  {
 
-    private val diaryItems = mutableListOf<DiaryData>(
-        ItemDiaryNote("Title", LocalDateTime.now(), "Some String data"),
-        ItemDiaryImage("Fignja", LocalDateTime.now(),"Cita fignja","https://p.kindpng.com/picc/s/72-722801_bread-roll-png-roll-of-bread-png-transparent.png")
-    )
+    private val diaryItems = RandomData.items
 
     private lateinit var adapter: DiaryRecAdapter
 
@@ -37,7 +34,7 @@ class Diary_Fragment : Fragment()  {
     }
     private fun addRandomDiaryItem(item: DiaryData) {
         diaryItems.add(0, item)
-        adapter.notifyDataSetChanged()
+        //adapter.notifyDataSetChanged()
         adapter.notifyItemInserted(0)
         mainDiaryItems.smoothScrollToPosition(0)
     }
