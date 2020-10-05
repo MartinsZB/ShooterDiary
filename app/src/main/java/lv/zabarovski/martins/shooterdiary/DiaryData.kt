@@ -12,6 +12,9 @@ data class ItemDiaryMantisX(
         val drill: String, val date: LocalDateTime, val shoots: Int, val score: Double,
         val fireType: String, val hand: String, val firearm: String, val note: String): DiaryData()
 
+
+
+/*
 object RandomData {
 
     private val random = Random()
@@ -66,4 +69,4 @@ object RandomData {
     val mantisXItem get() = ItemDiaryMantisX(randomTitle, LocalDateTime.now(), 10,93.67,
         randomTitle, randomTitle, randomTitle, randomLorem)
 
-}
+}*/
