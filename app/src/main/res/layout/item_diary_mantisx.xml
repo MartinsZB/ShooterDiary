@@ -14,7 +14,7 @@
         android:background="?selectableItemBackground">
 
         <ImageView
-            android:id="@+id/itemDeleteMantisX"
+            android:id="@+id/itemDeleteMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/itemTargetMantisX"
+            android:id="@+id/itemTargetMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -33,7 +33,7 @@
             app:srcCompat="@drawable/ic_target_svgrepo_com" />
 
         <TextView
-            android:id="@+id/itemDateMantisX"
+            android:id="@+id/itemDateMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -43,7 +43,7 @@
             tools:text="09.07.2030 13:21" />
 
         <TextView
-            android:id="@+id/itemDrillMantisX"
+            android:id="@+id/itemDrillMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/item_text_margin"
@@ -56,7 +56,7 @@
             tools:text="MantisX Benchmark" />
 
         <TextView
-            android:id="@+id/itemScoreMantisX"
+            android:id="@+id/itemScoreMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -68,7 +68,7 @@
             tools:text="93.25" />
 
         <TextView
-            android:id="@+id/itemShootsMantisX"
+            android:id="@+id/itemShootsMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -80,7 +80,7 @@
             tools:text="10" />
 
         <TextView
-            android:id="@+id/itemTypeMantisX"
+            android:id="@+id/itemTypeMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/item_mantisx_distance"
@@ -91,7 +91,7 @@
             app:layout_constraintTop_toBottomOf="@+id/itemDateMantisX" />
 
         <TextView
-            android:id="@+id/itemTypeMantisX_val"
+            android:id="@+id/itemTypeMantisX_valFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/item_text_margin"
@@ -102,7 +102,7 @@
             tools:text="dry practice" />
 
         <TextView
-            android:id="@+id/itemHandMantisX"
+            android:id="@+id/itemHandMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/item_text_margin"
@@ -112,7 +112,7 @@
             app:layout_constraintTop_toBottomOf="@+id/itemDateMantisX" />
 
         <TextView
-            android:id="@+id/itemHandMantisX_val"
+            android:id="@+id/itemHandMantisX_valFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/item_mantisx_distance"
@@ -123,7 +123,7 @@
             tools:text="Right" />
 
         <TextView
-            android:id="@+id/itemFirearmMantisX"
+            android:id="@+id/itemFirearmMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/item_mantisx_distance"
@@ -134,7 +134,7 @@
             app:layout_constraintTop_toBottomOf="@+id/itemTypeMantisX" />
 
         <TextView
-            android:id="@+id/itemFirearmMantisX_val"
+            android:id="@+id/itemFirearmMantisX_valFull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/item_text_margin"
@@ -146,11 +146,11 @@
             tools:text="Walther Arms Inc P99 AS 9x19mm" />
 
         <TextView
-            android:id="@+id/itemNoteMantisX"
+            android:id="@+id/itemNoteMantisXFull"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:padding="@dimen/item_text_margin"
-            android:text="@string/diary_note_mantisx"
+            android:text="@string/test_text"
             app:layout_constraintBottom_toTopOf="@+id/itemDrillMantisX"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

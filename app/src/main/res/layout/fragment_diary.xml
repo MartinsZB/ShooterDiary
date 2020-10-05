@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainDiary">
+    tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mainDiaryItems"
@@ -14,8 +14,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemAddButton"
+        app:spanCount="2"
+        tools:listitem="@layout/small_item_mantisx" />
+
+    <Button
+        android:id="@+id/itemAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
         app:layout_constraintTop_toTopOf="parent"
-        app:spanCount="1"
-        tools:listitem="@layout/item_diary_mantisx" />
+        tools:layout_editor_absoluteX="163dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

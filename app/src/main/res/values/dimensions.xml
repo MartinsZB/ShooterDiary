@@ -2,7 +2,8 @@
 <resources>
     <dimen name="margin_card">8dp</dimen>
     <dimen name="card_radius">8dp</dimen>
-    <dimen name="diary_item_size">256dp</dimen>
+    <dimen name="diary_item_size">128dp</dimen>
+    <dimen name="diary_note_item_size">180dp</dimen>
     <dimen name="corner_margin">16dp</dimen>
     <dimen name="item_text_margin">8dp</dimen>
     <dimen name="item_name_size">18dp</dimen>

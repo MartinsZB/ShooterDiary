@@ -10,11 +10,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/diary_item_size"
+        android:layout_height="@dimen/diary_note_item_size"
         android:background="?selectableItemBackground">
 
         <ImageView
-            android:id="@+id/itemDeleteNoteFull"
+            android:id="@+id/itemDeleteNote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/itemDateNoteFull"
+            android:id="@+id/itemDateNote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -33,7 +33,7 @@
             tools:text="09.07.2030 13:21" />
 
         <TextView
-            android:id="@+id/itemTitleNoteFull"
+            android:id="@+id/itemTitleNote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/item_text_margin"
@@ -45,7 +45,7 @@
             app:layout_constraintStart_toStartOf="@+id/itemDateNote" />
 
         <TextView
-            android:id="@+id/itemTextNoteFull"
+            android:id="@+id/itemTextNote"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@string/diary_note_text"

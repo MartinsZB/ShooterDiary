@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_card"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="@dimen/card_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diary_item_size"
+        android:background="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/itemDeleteMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/corner_margin"
+            android:src="@drawable/ic_diary_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/itemTargetMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_text_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemDateMantisX"
+            app:srcCompat="@drawable/ic_target_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/itemDateMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/corner_margin"
+            android:text="@string/diaryDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/diaryImage"
+            tools:text="09.07.2030 13:21" />
+
+        <TextView
+            android:id="@+id/itemDrillMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_text_margin"
+            android:text="@string/itemName"
+            android:textSize="@dimen/item_name_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="MantisX Benchmark" />
+
+        <TextView
+            android:id="@+id/itemScoreMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_text_margin"
+            android:text="@string/mantisx_score"
+            android:textSize="@dimen/item_name_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/itemTargetMantisX"
+            app:layout_constraintTop_toBottomOf="@+id/itemDateMantisX"
+            tools:text="93.25" />
+
+        <TextView
+            android:id="@+id/itemShootsMantisX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_text_margin"
+            android:text="@string/mantisx_shoots"
+            android:textSize="@dimen/item_name_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/itemTargetMantisX"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/itemDateMantisX"
+            tools:text="10" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

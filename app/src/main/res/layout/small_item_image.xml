@@ -14,7 +14,7 @@
         android:background="?selectableItemBackground">
 
         <ImageView
-            android:id="@+id/diaryImageFull"
+            android:id="@+id/diaryImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/diary_item_size"
             android:alpha="0.5"
@@ -28,7 +28,7 @@
             tools:src="@tools:sample/avatars" />
 
         <ImageView
-            android:id="@+id/itemDeleteImageFull"
+            android:id="@+id/itemDeleteImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -37,7 +37,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/itemDateImageFull"
+            android:id="@+id/itemDateImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/corner_margin"
@@ -47,7 +47,7 @@
             tools:text="09.07.2030 13:21" />
 
         <TextView
-            android:id="@+id/itemTitleImageFull"
+            android:id="@+id/itemTitleImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/item_text_margin"
