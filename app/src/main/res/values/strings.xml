@@ -20,5 +20,6 @@
     <string name="mantisx_shoots">10</string>
     <string name="diary_pager">Diary</string>
     <string name="timer_pager">Timer</string>
+    <string name="submit">Submit</string>
 
 </resources>

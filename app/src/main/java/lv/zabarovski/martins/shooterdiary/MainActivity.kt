@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        val db get() = Database.getInstance(this)
         val adapter = PagerAdapter(this)
 
         pagerView.adapter = adapter
@@ -25,3 +26,4 @@ class MainActivity : AppCompatActivity() {
         }.attach()
     }
 }
+
